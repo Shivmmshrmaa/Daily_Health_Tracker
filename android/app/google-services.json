@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "611430539581",
+    "project_id": "sign-in-f4dd4",
+    "storage_bucket": "sign-in-f4dd4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611430539581:android:b45a4189a534eb31722554",
+        "android_client_info": {
+          "package_name": "com.example.daily_health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611430539581-t6sdnch3ao0s4adhtmb1pfb6cmd628rj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daily_health",
+            "certificate_hash": "7c3384cf7a16a9d23ffcf5bb8658590ab1b5ecc5"
+          }
+        },
+        {
+          "client_id": "611430539581-m6mr2096shjh975l6csac3onlv63aq3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkGr5ougllgS73F-LOgs8gEpOm_gZvufM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611430539581-m6mr2096shjh975l6csac3onlv63aq3v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "611430539581-310a4vao53t7a7ms5drcprkk6ptrb3dl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dailyHealth"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
