@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:daily_health/routes/approutes.dart';
-import 'package:daily_health/views/homepage.dart';
-import 'package:daily_health/views/loginpage.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

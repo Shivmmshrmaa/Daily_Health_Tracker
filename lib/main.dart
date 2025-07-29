@@ -1,12 +1,7 @@
 import 'package:daily_health/routes/approutes.dart';
-import 'package:daily_health/views/homepage.dart';
-import 'package:daily_health/views/loginpage.dart';
-import 'package:daily_health/views/splashscreen.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import 'controllers/themecontroller.dart';
 import 'firebase_options.dart';
 
