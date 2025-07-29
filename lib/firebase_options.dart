@@ -63,7 +63,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '611430539581',
     projectId: 'sign-in-f4dd4',
     storageBucket: 'sign-in-f4dd4.firebasestorage.app',
-    iosClientId: '611430539581-310a4vao53t7a7ms5drcprkk6ptrb3dl.apps.googleusercontent.com',
+    iosClientId:
+        '611430539581-310a4vao53t7a7ms5drcprkk6ptrb3dl.apps.googleusercontent.com',
     iosBundleId: 'com.example.dailyHealth',
   );
 }

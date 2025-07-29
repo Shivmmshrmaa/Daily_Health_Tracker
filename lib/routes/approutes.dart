@@ -10,17 +10,8 @@ class AppRoutes {
   static const String home = '/home';
 
   static final routes = [
-    GetPage(
-      name: splash,
-      page: () => SplashScreen(),
-    ),
-    GetPage(
-      name: login,
-      page: () => LoginPage(),
-    ),
-    GetPage(
-      name: home,
-      page: () => Homepage(),
-    ),
+    GetPage(name: splash, page: () => SplashScreen()),
+    GetPage(name: login, page: () => LoginPage()),
+    GetPage(name: home, page: () => Homepage()),
   ];
 }

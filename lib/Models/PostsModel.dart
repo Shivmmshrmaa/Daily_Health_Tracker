@@ -4,12 +4,7 @@ class PostsModel {
   final String? title;
   final String? body;
 
-  PostsModel({
-    this.userId,
-    this.id,
-    this.title,
-    this.body,
-  });
+  PostsModel({this.userId, this.id, this.title, this.body});
 
   factory PostsModel.fromJson(Map<String, dynamic> json) {
     return PostsModel(
@@ -21,11 +16,6 @@ class PostsModel {
   }
 
   Map<String, dynamic> toJson() {
-    return {
-      'userId': userId,
-      'id': id,
-      'title': title,
-      'body': body,
-    };
+    return {'userId': userId, 'id': id, 'title': title, 'body': body};
   }
 }

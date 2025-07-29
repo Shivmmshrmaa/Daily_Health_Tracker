@@ -30,14 +30,17 @@ class StepGraph extends StatelessWidget {
         ),
         borderData: FlBorderData(show: false),
         barGroups: List.generate(7, (index) {
-          return BarChartGroupData(x: index, barRods: [
-            BarChartRodData(
-              toY: steps[index].toDouble(),
-              color: Colors.teal,
-              width: 16,
-              borderRadius: BorderRadius.circular(4),
-            )
-          ]);
+          return BarChartGroupData(
+            x: index,
+            barRods: [
+              BarChartRodData(
+                toY: steps[index].toDouble(),
+                color: Colors.teal,
+                width: 16,
+                borderRadius: BorderRadius.circular(4),
+              ),
+            ],
+          );
         }),
       ),
     );

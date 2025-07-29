@@ -8,7 +8,7 @@ class Userdetail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Padding(
+    return Padding(
       padding: EdgeInsets.all(10),
       child: Row(
         children: [
@@ -22,10 +22,7 @@ class Userdetail extends StatelessWidget {
             children: [
               Text(
                 user!.displayName ?? '',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
-                ),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               ),
               Text(user!.email ?? '', style: TextStyle(fontSize: 14)),
             ],
